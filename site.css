@@ -1,0 +1,48 @@
+html {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    background-color:rgb(42, 92, 126);
+    color:rgb(245, 183, 163);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D6A800;
+    padding: 10px;
+}
+h2 {
+    background-color:rgb(42, 92, 126);
+    color:rgb(245, 183, 163);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D6A800;
+    padding: 10px;
+}
+h3 {
+    background-color:rgb(42, 92, 126);
+    color:rgb(245, 183, 163);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D6A800;
+    padding: 10px;
+}
+h4 {
+    background-color:rgb(42, 92, 126);
+    color:rgb(245, 183, 163);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D6A800;
+    padding: 10px;
+}
+a {
+    color:rgb(111, 184, 209);
+    text-decoration: none; 
+}
+a:hover {
+    color:rgb(94, 57, 153);
+}
+a:visited {
+    color:black;
+}

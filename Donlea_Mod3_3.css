@@ -1,0 +1,46 @@
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    font-weight: 500;
+}
+.leftDiv{
+    width: 45%;
+    float: left;
+}
+.rightDiv {
+    width: 45%;
+    float: right;
+}
+.lastDiv {
+    margin-top: 60%;
+    margin-bottom: 20px;
+    width: 100%;
+    float: right;
+}
+div.lastDiv a:link {
+    text-decoration: none;
+    float: right;
+}
+div.lastDiv a:hover {
+    text-decoration: underline;
+}
+ol {
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style:decimal;
+    list-style-position: inside;
+}
+ul {
+    font-weight: 500;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: upper-roman;
+    list-style-position: inside;
+}

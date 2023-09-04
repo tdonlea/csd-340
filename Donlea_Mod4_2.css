@@ -1,0 +1,54 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-item1 {
+    grid-column: 1;
+    float: left;
+    border: 1px solid red;
+}
+.grid-item2 {
+    grid-column: 2;
+    float: center;
+    border: 1px solid red;
+}
+.grid-item3 {
+    grid-column: 3;
+    float: right;
+    border: 1px solid red;
+}
+figure {
+    text-align: center;
+}
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+.image-gallery {
+    margin-top: 10%;
+}
+.lastDiv {
+    position: absolute;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    width: 100%;
+    float: right;
+}
+div.lastDiv a:link {
+    text-decoration: none;
+    float: right;
+}
+div.lastDiv a:hover {
+    text-decoration: underline;
+}

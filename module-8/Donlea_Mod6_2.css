@@ -29,9 +29,10 @@ h1 {
     color:cornflowerblue;
 }
 .container {
-    margin-top: 2%;
+    margin: 2% 5% 5% 100px;
+    /* margin-top: 2%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%; */
     padding: 50%;
 }
 .card {
@@ -53,9 +54,10 @@ h1 {
 }
 footer {
     background-color: #9370DB;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    left: 0;
 }
 footer p {
     color: white;
@@ -67,7 +69,31 @@ footer p {
 footer a {
     text-decoration: none;
     color: white;
+    float: left
 }
 footer a:hover {
     text-decoration: underline;
+}
+
+.movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.movies th {
+    top: 12px;
+    bottom: 12px;
+    text-align: left;
+    border-style: groove;
+    border-width: 1px;
+    border-color: #ddd;
+    background-color: #9370DB;
+}
+
+.movies td {
+    border-style: groove;
+    border-width: 1px;
+    border-color: #ddd;
+    padding: 8px;
 }

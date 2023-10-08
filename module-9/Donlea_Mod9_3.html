@@ -1,0 +1,53 @@
+<!--Taylor Donlea, Assignment 9.3-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSD 340 Development with HTML and CSS</title>
+        <meta name="description"
+            content="Assignment 9.3" />
+        <meta name="keywords"
+            content="HTML, CSS, Address" />
+        <meta name="robots"
+            content ="nofollow" />
+        <meta name="author"
+            content="Taylor Donlea" />
+        <link href="Donlea_Mod9_3.css" rel="stylesheet" type="text/css">
+        <title>Assignment 9.3</title>
+        <script>
+            var siblingCount = "2";
+            var classCount = "55";
+            var ageValue = "25";
+            var locationState = "Florida";
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Assignment 9.3: JavaScript - Part 1</h1>
+            
+            <p> Taylor Donlea Intro </p>
+            <p> 
+                My name is Taylor Donlea and I am a first year student at Bellevue University. I am working towards obtaining my bachelors degree in Software Development. I am <span id="ageValue">___</span> years old and currently live in the Orlando, Florida area, where I have been living for the past 2 and a half years.
+            </p>
+            <p>
+                I have <span id = "siblingCount">_____</span> siblings; one half brother and one sister (who are both older than me). They both live in Northeast Iowa, which is where I am from and where the majority of my family resides.  This is where my parents live as well.  We were excited to find out earlier this summer that my sister is expecting a baby in January of 2024, and we eager to welcome our first nephew/grandchild to the family.
+                In my free time, I enjoy exploring the Orlando area with friends and finding new eateries, as well as coffee shops and breweries. 
+            </p>
+            <p>
+                When it's not scorching hot outside (being that I live in <span id="locationState">__________</span>), I enjoy going to the beach, swimming, going for walks, runs, hikes; basically anything outdoors, count me in.  I also love dogs and enjoy spending time with my cousin's 3 Australian Shepherds. Growing up, I lived in a small town my whole life. 
+            </p> 
+            <p>
+                To put it in perspective, I graduated with only around <span id="classCount">____</span> people in my high school class.  Given that I've only known been exposed to 'small town living', I decided to up and move to a bigger city, all on my own, when I turned 23.  Moving to Florida was a big change for me, but overall, I am very happy with my decision to up and move out of my hometown, but I'm not sure if I see myself living in Florida for the rest of my life.
+            </p>
+            <p>
+                <button type="button" onclick="document.getElementById('siblingCount').innerHTML = siblingCount"> Reveal sibling count </button>
+                <button type="button" onclick="document.getElementById('classCount').innerHTML = classCount"> Reveal class count </button>
+                <button type="button" onclick="document.getElementById('ageValue').innerHTML = ageValue"> Reveal age </button>
+                <button type="button" onclick="document.getElementById('locationState').innerHTML = locationState"> Reveal state </button>
+            </p>
+            <address>
+                <a href="https://www.bellevue.edu/">Bellevue University</a><br>
+                1000 Galvin Rd S<br>
+                Bellevue, NE 68005 
+            </address>
+    </body>
+</html>

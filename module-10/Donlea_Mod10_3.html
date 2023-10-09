@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      Assignment 10.3
+    </title>
+    <script>
+      function displayImage2(name){
+        if (name == 'aussie') {
+            aussie.src="images/aussie2.jpg";
+        } else {
+            aussie2.src="images/aussie4.jpg";
+        }
+      }
+    </script>
+    <script>
+      function displayImage1(name){
+        if (name == 'aussie') {
+            aussie.src="images/aussie1.jpeg";
+        } else {
+            aussie2.src="images/aussie3.jpg";
+        }
+      }
+    </script>
+
+    <link rel='stylesheet' type='text/css' href='body1.css' />
+
+  </head>
+
+  <body>
+    <br />
+    <div>
+      <a href=#
+        
+        onclick="displayImage2('aussie')";
+        onmouseleave="displayImage1('aussie')";
+      >
+        <img border = 0 width = 30% name = "aussie" src = "images/aussie1.jpeg">
+      </a>
+    </div>
+    <br />
+    <div>
+      <a href=#
+      onclick="displayImage2('aussie2')";
+      onmouseleave="displayImage1('aussie2')";
+      >
+        <img border = 0 width = 30% name = "aussie2" src = "images/aussie3.jpg">
+      </a>
+    </div>
+    <br />
+  </body>
+
+</html>
